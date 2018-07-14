@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777;
-  background: url("../images/concrete_seamless.png");
+  background: url("../images/pattern.jpg");
 }
 
 * {
@@ -17,6 +17,14 @@ body {
   max-width: 960px;
   margin: 0 auto;
   clear: both;
+}
+
+#profile-image {
+  float: left;
+  border-radius: 50%;
+  margin-right: 1em;
+  margin-bottom: 0.5em;
+  shape-outside: circle();
 }
 
 h1,
@@ -45,6 +53,10 @@ h1 {
   border-bottom: 3px solid #ddd;
 }
 
+p {
+  
+}
+
 h2,
 h3 {
   font-size: 22px;
@@ -60,7 +72,9 @@ h3 {
   overflow: auto;
   color: #fff;
   background: #fff;
-  border-bottom: 2px solid #ccc;
+
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
 }
 
 #logo {
@@ -118,7 +132,8 @@ footer {
   padding: 30px;
   margin-bottom: 20px;
   background: #fff;
-  border: 1px solid #ddd;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
 }
 
 h3,
@@ -153,7 +168,8 @@ h3,
   padding: 30px;
   margin: 0 0 40px;
   background: #fff;
-  border: 1px solid #ddd;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
 }
 
 /* portfolio page */
@@ -163,6 +179,7 @@ h3,
   float: left;
   width: 274px;
   margin: 20px 0 25px;
+  border-radius: 10%;
   overflow: auto;
 }
 
